@@ -5,4 +5,5 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello"
+    - uses: Kesin11/actions-timeline@v2.2.0
+    - run: echo "Hello"
